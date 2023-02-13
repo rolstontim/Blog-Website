@@ -1,0 +1,38 @@
+
+
+.headerTitles{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #444;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.headerTitleSm{
+    position: absolute;
+    top: 18%;
+    font-size: 4vw;
+}
+
+.headerTitleLg{
+    position: absolute;
+    top: 20%;
+    font-size: 8vw;
+    padding: 20px;
+    
+}
+
+
+.headerImg{
+    width: 100%;
+    object-fit: cover;
+    height: 100vh;
+    object-position: bottom;
+}
+
+@media screen and (max-width: 600px) {
+    .headerImg{
+        height: 100vh;
+    }
+}
